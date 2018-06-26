@@ -1,0 +1,17 @@
+.sideHeader {
+    overflow:hidden;
+    margin-left:2rem;
+    margin-top:1rem;
+    
+    svg {
+        display:inline-block;
+        width:2rem;
+        height:2rem;
+    }
+    h2 {
+        display:inline-block;
+        margin:0;
+        margin-left:1rem;
+        vertical-align: -30%;
+    }
+}

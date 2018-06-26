@@ -1,0 +1,16 @@
+.dashBoard{
+    /*max-width:900px;
+    */
+    width:100%;
+    min-height: 100%;
+    display:grid;
+    grid-template: 50px 1fr/300px 1fr;
+    margin:0 auto;
+    transform: all 1s ease;
+    
+}
+@media (max-width:500px) {
+    .dashBoard {
+        grid-template: 50px 1fr/0 1fr;
+    }
+}

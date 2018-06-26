@@ -1,0 +1,9 @@
+.sideBar {
+  grid-area: 2 / 1 / 3 / 2;
+  background-color: green;
+  height: 100%;
+  transition: all 1s ease-in; }
+
+@media (max-width: 500px) {
+  .sideBar {
+    transform: translateX(-300px); } }

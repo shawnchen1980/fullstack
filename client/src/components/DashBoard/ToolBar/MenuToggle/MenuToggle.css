@@ -1,0 +1,22 @@
+.menuToggle {
+    height : 100%;
+    display: flex;
+    width: 40px;
+    flex-flow:column;
+    justify-content:space-around;
+    align-items: center;
+    box-sizing:border-box;
+    padding: 5px 0;
+    margin-left: 5px;
+}
+
+.menuToggle div {
+    height: 0.25rem;
+    width: 100%;
+    background-color: white;
+}
+@media (min-width:300px){
+    .menuToggle {
+        display:none;
+    }
+}

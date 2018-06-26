@@ -1,0 +1,36 @@
+{
+  "name": "fullstack",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "startServer": "set NODE_ENV=development && set PORT=8888 && nodemon ./server/bin/www",
+    "startClient": "npm run start --prefix ./client",
+    "start": "concurrently \"npm run startServer\" \"npm run startClient\" "
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt-nodejs": "0.0.3",
+    "body-parser": "^1.18.2",
+    "cookie-session": "^2.0.0-beta.3",
+    "express": "^4.16.3",
+    "https-proxy-agent": "^2.2.0",
+    "mongoose": "^5.0.11",
+    "morgan": "^1.9.0",
+    "passport": "^0.4.0",
+    "passport-baidu": "0.0.1",
+    "passport-github": "^1.1.0",
+    "passport-google-oauth20": "^1.0.0",
+    "passport-local": "^1.0.0",
+    "passport-oauth2": "^1.4.0",
+    "puppeteer": "^1.2.0"
+  },
+  "devDependencies": {
+    "concurrently": "^3.5.1",
+    "jest": "^22.4.3",
+    "nodemon": "^1.17.2"
+  }
+}
